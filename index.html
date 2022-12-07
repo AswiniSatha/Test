@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>REVIEW PAGE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+       <center> <h1>CUSTOMER REVIEW</h1></center>
+       <div id="review">
+        <div class="label_style">
+        <p><label>CUSTOMER NAME</label><br><br><br><br><br></p>
+        <p><label>CUSTOMER REVIEW</label></p>
+        <p class="rating_style">CUSTOMER RATING</p>
+       </div>
+        <div class="input_style">
+        <input id="name" type="text" placeholder="Enter your name"><br><br><br>
+        
+        <textarea id="review_text" type="text" placeholder="Enter your valuable review" rows="7" cols="25"></textarea><br>
+        <button class="star" type="button">☆</button>
+        <button class="star" type="button">☆</button>
+        <button class="star" type="button">☆</button>
+        <button class="star" type="button">☆</button>
+        <button class="star" type="button">☆</button>
+        <p class="current_rating" style="color: black;">0 of 5</p>
+        
+        
+
+       </div>
+       </div>
+      
+       <button class="button-87" role="button" onclick="submitreview()">SUBMIT</button>
+
+       <p id="content3">Customer Previous Reviews</p>
+       <div id="content4">
+       <p >Average Rating </p>
+
+       <img id="overall" src="./img/star_1.png">
+    </div>
+       <div id="review_list">
+         <!-- <div>
+            <p id="name_list">NAME</p>
+            <img src="./img/star_1.png">
+            <p id="review_textarea">Review</p>
+        </div> -->
+       </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

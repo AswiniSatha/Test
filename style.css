@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+     color:rgb(82, 68, 68);
+    /* color:white; */
+    }
+
+    
+    body{
+    /* height: 100vh; */
+    margin: 2rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: white; */
+     background: #FFEFBA; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+/* 
+    background: #59C173;  /* fallback for old browsers */
+  /*  background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+  /*  background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+                
+    /* background: linear-gradient(45deg, purple, blue); */
+    }
+
+    #review
+    {
+        margin-top: 40px;
+        height: 400px;
+        display:flex;
+    }
+    .rating_style
+    {
+        padding-top: 170px;
+    }
+    .star{
+        font-size: 3rem;
+        color: #ff9800;
+        background-color: unset;
+        border: none;
+    }
+
+    .star:hover{
+        cursor: pointer;
+    }
+    .star_rating{
+        user-select: none;
+        /* color: white; */
+        background-color: white;
+        padding: 1.4rem 2.5rem;
+        margin: 3rem;
+        border-radius: .4rem;
+        text-align: center;
+        animation: slide-up 1s ease;
+    }
+
+@keyframes slide-up{
+        0%{
+            opacity: 0;
+            transform: scale(.5);
+        }
+
+        100%{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+
+    .star_rating textarea
+    {
+     margin-left: 120px;
+    }
+
+    .label_style
+    {
+        margin: 8px 0;
+        padding: 12px 20px;
+        width:250px;
+        font-size: 16px;
+        color:rgb(82, 68, 68);
+    }
+    .input_style
+    {
+        width:400px;
+       
+    }
+
+    .input_style input,textarea
+    {
+        /* width: 100%; */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+    }
+
+    textarea:focus {
+        border: 3px solid rgb(94, 73, 73);
+        width:100%;
+      }
+
+
+      input:focus{
+        border: 3px solid #555;
+        width:100%;
+
+      }
+
+
+
+
+.button-87 {
+  margin: 10px 150px;
+  padding: 15px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+#content3
+{
+    font-size:20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+#review_list
+{
+    height:800px;
+    display:flex;
+     gap:10px; 
+    flex-wrap: wrap;
+}
+#timedrpact
+{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 18px;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+    height:170px;
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#name_style
+{
+    font-size:16px;
+    text-transform:capitalize;  
+    width:180px;
+
+}
+#timedrpact_inner
+{
+    height:60px;
+    display: flex;
+}
+
+ #timedrpact_inner  img{
+    height:40px;
+    width:190px;
+    padding-left: 50px;
+    margin-top: -10px;
+    /* object-fit: cover; */
+}
+
+#content4
+{
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px; 
+    margin-left: 10px;
+    margin-bottom: 50px;
+     
+}
+#overall{
+   
+    height:40px;
+    width:190px;
+    padding-left: 50px;
+     margin-top: -10px; 
+    /* object-fit: cover; */
+}
